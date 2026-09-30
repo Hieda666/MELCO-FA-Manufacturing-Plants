@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+html, body {
+    overflow: hidden;
+}
+
+p.content2{
+    border-bottom: solid 0.5px #CCC;
+    }
+
+
+p.content1 {   position:absolute;
+    top: 1px;;
+    left:180px;}
+
+p {font-size: 18px;}
+
+/* 画面幅が768px以上のときのスタイル（タブレット以上のサイズ向け） */
+@media (min-width: 768px) {
+  p { font-size: 19px;}
+}
+
+/* 画面幅が1280px以上のときのスタイル（デスクトップ向け） */
+@media (min-width: 1280px) {
+  p {font-size: 24px;}
+}
+
+  
+ 
+
+/* -- end */
