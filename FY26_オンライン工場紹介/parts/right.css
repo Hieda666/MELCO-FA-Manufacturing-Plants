@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+body{
+    background-color: white;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+/* -- end */
